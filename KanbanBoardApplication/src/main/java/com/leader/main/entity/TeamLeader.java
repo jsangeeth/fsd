@@ -59,7 +59,7 @@ public class TeamLeader {
 	}
 	@Override
 	public String toString() {
-		return "TeamLeader [tId=" + tId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+		return "TeamLeader [ firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
 				+ ", password=" + password + "]";
 	}
 	

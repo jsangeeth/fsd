@@ -1,12 +1,10 @@
 package com.leader.main.exception;
 
-public class NullUserFound extends Exception {
+public class InvalidUserId extends Exception{
 
 	private static final long serialVersionUID = 1L;
 
-	public NullUserFound(String message) {
+	public InvalidUserId(String message) {
 		super(message);
 	}
-
-
 }
